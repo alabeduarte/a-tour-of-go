@@ -2,8 +2,19 @@
 
 Implementation of the [tour](https://tour.golang.org) of Go.
 
+## Requirements
+
+- [Install go](https://golang.org/doc/install)
+- Install go tour packagies
+
+```
+$ go get golang.org/x/tour/gotour
+```
+
 ## Running
 
 ```
-$ make
+$ go run ./moretypes/exercises/exercise-slices.go
+$ go run ./moretypes/exercises/exercise-maps.go
+$ go run ./moretypes/exercises/exercise-fibonacci-closure.go
 ```
