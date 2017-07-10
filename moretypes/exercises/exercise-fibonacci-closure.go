@@ -11,13 +11,7 @@ func fibonacci() func() int {
 
   return func() int {
     switch {
-    case curr == 0:
-      prev = curr
-      curr++
-      next++
-
-      return curr
-    case curr == 1:
+    case curr == 0, curr == 1:
       prev = curr
       curr++
       next++
