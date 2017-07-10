@@ -3,4 +3,5 @@ FROM golang:1.8
 COPY . /app
 WORKDIR /app
 
-CMD ["go", "help"]
+RUN go get golang.org/x/tour/gotour
+CMD ["go", "run", "./moretypes/exercises/exercise-slices.go"]

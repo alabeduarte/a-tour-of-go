@@ -1,6 +1,6 @@
-# [A Tour of Go](https://tour.golang.org)
+# A Tour of Go
 
-Implementation of the tour of Go.
+Implementation of the [tour](https://tour.golang.org) of Go.
 
 ## Running
 
