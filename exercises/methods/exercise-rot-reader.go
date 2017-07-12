@@ -12,7 +12,7 @@ type rot13Reader struct {
   r io.Reader
 }
 
-func (r13 *rot13Reader) convert(b byte, alphabet []string) byte {
+func (r13 *rot13Reader) Convert(b byte, alphabet []string) byte {
   for i := range alphabet {
     if alphabet[i] == strings.ToUpper(string(b)) {
       rot13 := 13
@@ -33,7 +33,7 @@ func (r13 *rot13Reader) Read(b []byte) (int, error) {
   n, err := r13.r.Read(b)
 
   for i := 0; i < len(b); i++ {
-    b[i] = r13.convert(b[i], alphabet);
+    b[i] = r13.Convert(b[i], alphabet);
   }
 
   return n, err
