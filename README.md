@@ -18,4 +18,5 @@ $ go run ./moretypes/exercises/exercise-slices.go
 $ go run ./moretypes/exercises/exercise-maps.go
 $ go run ./moretypes/exercises/exercise-fibonacci-closure.go
 $ go run ./moretypes/exercises/exercise-readers.go
+$ go run ./moretypes/exercises/exercise-rot-reader.go
 ```
