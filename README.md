@@ -5,7 +5,7 @@ Implementation of the [tour](https://tour.golang.org) of Go.
 ## Requirements
 
 - [Install go](https://golang.org/doc/install)
-- Install go tour packagies
+- Install go tour packages
 
 ```
 $ go get golang.org/x/tour/gotour
