@@ -17,4 +17,5 @@ $ go get golang.org/x/tour/gotour
 $ go run ./moretypes/exercises/exercise-slices.go
 $ go run ./moretypes/exercises/exercise-maps.go
 $ go run ./moretypes/exercises/exercise-fibonacci-closure.go
+$ go run ./moretypes/exercises/exercise-readers.go
 ```
