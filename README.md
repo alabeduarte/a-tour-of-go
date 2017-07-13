@@ -14,10 +14,10 @@ $ go get golang.org/x/tour/gotour
 ## Running
 
 ```
-$ go run ./moretypes/exercises/exercise-slices.go
 $ go run ./moretypes/exercises/exercise-maps.go
 $ go run ./moretypes/exercises/exercise-fibonacci-closure.go
-$ go run ./moretypes/exercises/exercise-readers.go
-$ go run ./moretypes/exercises/exercise-rot-reader.go
-$ go run ./moretypes/exercises/exercise-images.go
+
+$ go run ./methods/exercises/exercise-readers.go
+$ go run ./methods/exercises/exercise-rot-reader.go
+$ go run ./methods/exercises/exercise-images.go
 ```
