@@ -20,4 +20,6 @@ $ go run ./moretypes/exercises/exercise-fibonacci-closure.go
 $ go run ./methods/exercises/exercise-readers.go
 $ go run ./methods/exercises/exercise-rot-reader.go
 $ go run ./methods/exercises/exercise-images.go
+
+$ go run ./concurrency/exercises/exercise-equivalent-binary-trees.go
 ```
